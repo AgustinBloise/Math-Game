@@ -1,39 +1,36 @@
 #message{
-
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin: auto;
-  font-family: 'Cinzel Decorative', cursive;
-  vertical-align: auto;
-  font-size: 120%;
-  border: none;
-  padding: 3px 20px;
-  text-align: center;
-  font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    font-family: 'Cinzel Decorative', cursive;
+    vertical-align: auto;
+    font-size: 120%;
+    border: none;
+    padding: 3px 20px;
+    text-align: center;
+    font-weight: 700;
   }
 
 .square{
-
-  float: left;
-  width: 30%;
-  height: 0;
-  padding-bottom: 22%;
-  padding-top: 8%;
-  background-color: gray;
-  margin: 1.5%;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 420%;
-  vertical-align: auto;
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 22%;
+    padding-top: 8%;
+    background-color: gray;
+    margin: 1.5%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 420%;
+    vertical-align: auto;
   }
 
 .container{
-
-  max-width: 650px;
-  text-align: center;
-  margin: 0 auto;
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
   }
 
 body{
@@ -89,6 +86,7 @@ background-color: rgb(22, 22, 22);
 color: white;
 font-family: 'Cinzel Decorative', cursive;
 font-size: 105%;
+height: 30px;
 }
 
 
@@ -114,4 +112,107 @@ font-size: 105%;
 
 #ig{
   width: 20px;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 955px){
+
+  .bot{
+    padding: 2px 10px;
+    font-size: 90%;
+    }
+
+  #message{
+    font-size: 100%;
+    padding: 3px 10px;
+    }
+    
+  #stripe{
+    margin: 0% 5% 0%;
+  }
+
+  h1{
+    margin: 0.5% 5% 0.3%;
+    padding: 0.5%;
+    }
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 675px){
+
+  .bot{
+    font-size: 75%;
+    padding: 0 10px;
+    height: 25px;
+    }
+  
+  #message{
+    font-size: 80%;
+    }
+
+  #stripe{
+    height: 25px;
+    }
+      
+}
+
+@media only screen and (min-width: 100px) and (max-width: 560px){
+
+  .bot{
+    font-size: 60%;
+    }
+  
+  #message{
+    font-size: 65%;
+    }
+  
+  #stripe{
+    height: 30px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 580px){
+
+  .bot{
+    font-size: 50%;
+    }
+  
+  #message{
+    font-size: 55%;
+    }
+    
+  #stripe{
+    height: 30px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 425px){
+
+  .bot{
+    font-size: 40%;
+    }
+  
+  #message{
+    font-size: 45%;
+    }
+  
+  #stripe{
+    height: 30px;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 368px){
+
+  .bot{
+    font-size: 30%;
+    }
+  
+  #message{
+    font-size: 35%;
+    }
+  
+  #stripe{
+    height: 30px;
+    }
 }
